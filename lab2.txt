@@ -1,0 +1,9 @@
+Question 1
+Big Chunk after the sentence "playload is sent successfully"
+
+Question 2
+(cannot connect to google so use baidu instead)
+IP address of the two are not the same
+
+steps: $ echo "Foobar" | nc localhost 8001 -q 1
+socket.py 
