@@ -15,7 +15,7 @@ def get_remote_ip(host):
     return remote_ip
 
 def main():
-    host="www.baidu.com"
+    host="www.google.com"
     port=80
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as proxy_start:
         print("Starting the proxy server")

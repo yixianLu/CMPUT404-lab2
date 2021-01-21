@@ -11,10 +11,14 @@ randomly
 
 Question 3
 s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+which prevents address already in use error
 
 
 Question 4
 hostname, port
 
 Question 5
-FooBar
+data of 4096 bufferszie
+
+Question 6
+https://github.com/yixianLu/CMPUT404-lab2

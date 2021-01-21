@@ -6,7 +6,7 @@ HOST = "localhost"
 PORT = 8001
 BUFFER_SIZE=1024
 
-payload = "GET / HTTP/1.0\r\nHost:www.baidu.com\r\n\r\n"
+payload = "GET / HTTP/1.0\r\nHost:www.google.com\r\n\r\n"
 def connect(addr):
     try:
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
