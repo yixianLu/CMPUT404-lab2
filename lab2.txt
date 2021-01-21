@@ -6,4 +6,9 @@ They're initialized the same way (as in they both use socket.socket(socket.AF_IN
 but clients and servers have different methods available to them
 
 Question 3
+s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+#bind socket to address
+s.bind((HOST, PORT))
 
+Question 4
+connection? address?
