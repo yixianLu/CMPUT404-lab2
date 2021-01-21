@@ -1,14 +1,20 @@
 Question 1
-Big Chunk after the sentence "playload is sent successfully"
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 Question 2
 They're initialized the same way (as in they both use socket.socket(socket.AF_INET, socket.SOCK_STREAM)) 
 but clients and servers have different methods available to them
 
+client socket connect to the server and server socket receives the connection, for 
+server socket we specify which port we listens in, for client socket we receives 
+randomly
+
 Question 3
 s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-#bind socket to address
-s.bind((HOST, PORT))
+
 
 Question 4
-connection? address?
+hostname, port
+
+Question 5
+FooBar
