@@ -2,8 +2,8 @@ Question 1
 Big Chunk after the sentence "playload is sent successfully"
 
 Question 2
-(cannot connect to google so use baidu instead)
-IP address of the two are not the same
+They're initialized the same way (as in they both use socket.socket(socket.AF_INET, socket.SOCK_STREAM)) 
+but clients and servers have different methods available to them
 
-steps: $ echo "Foobar" | nc localhost 8001 -q 1
-socket.py 
+Question 3
+
