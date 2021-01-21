@@ -17,4 +17,7 @@ Question 4
 hostname, port
 
 Question 5
-FooBar
+data of 4096 bufferszie
+
+Question 6
+https://github.com/yixianLu/CMPUT404-lab2
